@@ -1,15 +1,37 @@
     #grid {
-        background-color: black;
+        background-color: #010101;
         display: grid;
         grid-template-columns: repeat(20, 20px);
         grid-template-rows: repeat(30, 20px);
+        height: 779px;
+        width: 388px;
+        align-content: center;
+        margin-left: 794px;
+        margin-top: 187px;
+        margin-bottom: auto;
+    }
+    #lines {
+        background-color: #010101;
+    }
+    #score {
+        background-color: #010101;
+    }
+    #high {
+        background-color: #010101;
+    }
+    #current {
+        background-color: #010101;
+    }
+    #stats {
+        background-color: #010101;
     }
     .square {
         width: 30px;
         height: 30px;
-        background-color: black;
     }
     body {
-        text-align: center;
-        background-color: gray;
+        background-image: url("https://i.ytimg.com/vi/FSLAyV0mGUw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC0LkZcrND02qBL2yLo8ogv0no2xg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
