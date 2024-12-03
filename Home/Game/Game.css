@@ -1,0 +1,15 @@
+    #grid {
+        background-color: black;
+        display: grid;
+        grid-template-columns: repeat(20, 20px);
+        grid-template-rows: repeat(30, 20px);
+    }
+    .square {
+        width: 30px;
+        height: 30px;
+        background-color: black;
+    }
+    body {
+        text-align: center;
+        background-color: gray;
+    }
