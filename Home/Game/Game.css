@@ -6,12 +6,17 @@
         height: 779px;
         width: 388px;
         align-content: center;
-        margin-left: 794px;
-        margin-top: 187px;
+        margin-left: 789px;
+        margin-top: 130px;
         margin-bottom: auto;
     }
     #lines {
         background-color: #010101;
+        margin-left: 777px;
+        margin-top:55px;
+        width: 389px;
+        border: 10px cyan solid;
+        height:50px;
     }
     #score {
         background-color: #010101;
@@ -23,6 +28,15 @@
         background-color: #010101;
     }
     #stats {
+        background-color: #010101;
+    }
+    #level {
+        background-color: #010101;
+    }
+    #next {
+        background-color: #010101;
+    }
+    #type {
         background-color: #010101;
     }
     .square {
