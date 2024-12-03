@@ -6,16 +6,17 @@
         height: 779px;
         width: 388px;
         align-content: center;
-        margin-left: 789px;
-        margin-top: 130px;
+        margin-left: 777px;
+        margin-top: 45px;
         margin-bottom: auto;
+        border: 10px #a4f5e8 solid;
     }
     #lines {
         background-color: #010101;
         margin-left: 777px;
         margin-top:55px;
         width: 389px;
-        border: 10px cyan solid;
+        border: 10px #a4f5e8 solid;
         height:50px;
     }
     #score {
@@ -29,6 +30,11 @@
     }
     #stats {
         background-color: #010101;
+        margin-left: 50px;
+        margin-top: 150px;
+        width: 200px;
+        height: 300px;
+        border: 10px #a4f5e8 solid;
     }
     #level {
         background-color: #010101;
@@ -38,6 +44,12 @@
     }
     #type {
         background-color: #010101;
+        width: 150px;
+        height:50px;
+        margin-left: 80px;
+        margin-top: 80px;
+        margin-bottom: auto;
+        border: 10px #a4f5e8 solid;
     }
     .square {
         width: 30px;
