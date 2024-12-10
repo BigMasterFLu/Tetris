@@ -1,55 +1,79 @@
-    #grid {
+  #grid {
+        position: absolute;
         background-color: #010101;
         display: grid;
         grid-template-columns: repeat(20, 20px);
         grid-template-rows: repeat(30, 20px);
         height: 779px;
         width: 388px;
-        align-content: center;
-        margin-left: 777px;
-        margin-top: 45px;
-        margin-bottom: auto;
+        align-content: center;  
+        left: 790px;
+        top: 175px;
         border: 10px #a4f5e8 solid;
     }
     #lines {
+        position: absolute;
         background-color: #010101;
-        margin-left: 777px;
-        margin-top:55px;
-        width: 389px;
+        left: 790px;
+        top:60px;
+        width: 399px;
         border: 10px #a4f5e8 solid;
         height:50px;
+        float: left;
     }
     #score {
+        box-sizing: border-box;
+        position: absolute;
         background-color: #010101;
+        top:58px;
+        right: 400px;
+        width: 275px;
+        height:308px;
+        border: 10px #a4f5e8 solid;
+        line-height: 0.7;
+        font-weight:bold;
+        font-size: 60px;
+        padding-left: 15px;
     }
     #high {
-        background-color: #010101;
+        position: absolute;
+        top:40px;
     }
     #current {
-        background-color: #010101;
+        position: absolute;
+        bottom:40px;
     }
     #stats {
+        position: absolute;
         background-color: #010101;
-        margin-left: 50px;
-        margin-top: 150px;
-        width: 200px;
-        height: 300px;
+        left: 400px;
+        top: 290px;
+        width: 330px;
+        height: 675px;
         border: 10px #a4f5e8 solid;
     }
     #level {
+        position: absolute;
         background-color: #010101;
+        border: 10px #a4f5e8 solid;
     }
     #next {
+        position: absolute;
         background-color: #010101;
+        border: 10px #a4f5e8 solid;
     }
     #type {
+        position: absolute;
         background-color: #010101;
-        width: 150px;
-        height:50px;
-        margin-left: 80px;
-        margin-top: 80px;
-        margin-bottom: auto;
+        width: 250px;
+        height:58px;
+        left: 440px;
+        top: 92px;
+        bottom: auto;
         border: 10px #a4f5e8 solid;
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
     }
     .square {
         width: 30px;
@@ -60,4 +84,6 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+        color:white;
+        font-family: 'Tiny5'
     }
