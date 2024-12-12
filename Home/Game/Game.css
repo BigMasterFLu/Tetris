@@ -46,21 +46,35 @@
     #stats {
         position: absolute;
         background-color: #010101;
-        left: 400px;
+        left: 00px;
         top: 290px;
         width: 330px;
         height: 675px;
         border: 10px #a4f5e8 solid;
+        text-align: center;
+        font-size: 50px;
     }
     #level {
         position: absolute;
         background-color: #010101;
         border: 10px #a4f5e8 solid;
+        right: 440px;
+        bottom: 160px;
+        width: 212px;
+        height: 100px;
+        text-align: center;
+        font-size: 40px;
     }
     #next {
         position: absolute;
         background-color: #010101;
         border: 10px #a4f5e8 solid;
+        top:440px;
+        right:480px;
+        width: 170px;
+        height: 215px;
+        text-align:center;
+        font-size:60px;
     }
     #type {
         position: absolute;
@@ -75,6 +89,12 @@
         font-size: 50px;
         font-weight: bold;
     }
+    .block {
+        background-color: #ffffff;
+        border:#659df1 solid 5px;
+        width: 15px;
+        height: 15px;
+    }
     .square {
         width: 30px;
         height: 30px;
@@ -87,3 +107,4 @@
         color:white;
         font-family: 'Tiny5'
     }
+    
